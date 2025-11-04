@@ -4,7 +4,7 @@ metadata:
     name: frontend-service
     namespace: wanderlust
     annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: "classic"
+        service.beta.kubernetes.io/aws-load-balancer-type: "classic"
 spec:
     type: LoadBalancer
     selector:
