@@ -17,6 +17,6 @@ spec:
         spec:
             containers:
                 - name: frontend-deployment
-                  image: 307946649652.dkr.ecr.ap-south-1.amazonaws.com/wanderlust-frontend:frontend-49
+                  image: 307946649652.dkr.ecr.ap-south-1.amazonaws.com/wanderlust-frontend:frontend-54
                   ports:
                       - containerPort: 80
